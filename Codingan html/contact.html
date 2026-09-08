@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>About Me</title>
+  </head>
+  <body>
+    <h1>Informasi Kontak</h1>
+    <a href="home.html">Home</a> | <a href="about.html">About</a> |
+    <a href="project.html">Project</a> |
+    <a href="contact.html">Contact</a>
+    <hr />
+</head>
+<body>
+
+    <p>Jika Anda ingin berdiskusi atau bekerja sama, silakan hubungi saya melalui form berikut.<br>
+    Anda juga dapat mengirim email ke <a href="mailto:qeisyadwihermawan@student.upi.edu">qeisyadwihermawan@student.upi.edu</a>.</p>
+
+    <h2>Form Pesan</h2>
+
+    <form>
+        <table border="1" cellspacing="0" cellpadding="12" width="600">
+            <tr>
+                <th colspan="2">Form Data Kontak</th>
+            </tr>
+            <tr>
+                <td><strong>Nama Lengkap:</strong></td>
+                <td><input type="text" name="nama" size="40"></td>
+            </tr>
+            <tr>
+                <td><strong>Email:</strong></td>
+                <td><input type="email" name="email" size="40"></td>
+            </tr>
+            <tr>
+                <td><strong>Nomor Telepon:</strong></td>
+                <td><input type="tel" name="telepon" size="25"></td>
+            </tr>
+            <tr>
+                <td><strong>Jenis Kelamin:</strong></td>
+                <td>
+                    <input type="radio" name="kelamin" value="laki"> Laki-laki
+                    <input type="radio" name="kelamin" value="perempuan"> Perempuan
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Tanggal Lahir:</strong></td>
+                <td><input type="date" name="tanggal_lahir"></td>
+            </tr>
+            <tr>
+                <td><strong>Topik Pesan:</strong></td>
+                <td>
+                    <select name="topik">
+                        <option value="diskusi">Diskusi</option>
+                        <option value="kerjasama">Kerja Sama</option>
+                        <option value="lainnya">Lainnya</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Jenis Pesan:</strong></td>
+                <td>
+                    <input type="radio" name="jenis_pesan" value="pertanyaan"> Pertanyaan
+                    <input type="radio" name="jenis_pesan" value="saran"> Saran
+                    <input type="radio" name="jenis_pesan" value="lainnya"> Lainnya
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Pesan:</strong></td>
+                <td><textarea name="pesan" rows="6" cols="45"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Kirim Pesan">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <br>
+
+    <em>Catatan: karena website ini hanya menggunakan HTML, form belum terhubung ke server/database.</em>
+    <hr>
+    
+    <a href="home.html">Kembali ke Home</a>
+    <p>&copy; 2026 Qeisya Dwi Hermawan.</p>
+</body>
+</html>
