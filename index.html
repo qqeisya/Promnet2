@@ -2,39 +2,62 @@
 <html lang="id">
   <head>
     <meta charset="UTF-8" />
-    <title>About Me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - Qeisya Dwi Hermawan</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <h1>Personal Website</h1>
-    <p>Selamat datang di website pribadi saya.</p>
-    <a href="index.html">Home</a> | <a href="about.html">About</a> |
-    <a href="project.html">Project</a> |
-    <a href="contact.html">Contact</a> |
-    <a href="skill.html">Skill</a>
-    <hr />
-</head>
-<body>
-    <h2>Halo, Saya Qeisya Dwi Hermawan</h2>
-<img
-      src="picture.jpeg"
-      width="240"><br>
+    <div id="header">
+      <h1>Personal Website</h1>
+    </div>
 
-    <p>Saya adalah mahasiswa yang sedang belajar pengembangan web.<br>
-    Website ini dibuat sebagai latihan menggunakan HTML dasar tanpa CSS.</p>
+    <div class="nav-bar">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="project.html">Project</a>
+      <a href="contact.html">Contact</a>
+      <a href="skill.html">Skill</a>
+    </div>
 
-    <p>Di website ini Anda dapat mengenal saya, melihat beberapa project, serta menghubungi saya melalui halaman contact.</p>
+    <div class="container">
+      <div class="perkenalan">
+        <h2>Halo, Saya Qeisya Dwi Hermawan</h2>
 
-    <h3>Yang Sedang Saya Pelajari</h3>
-    <ul>
-        <li>HTML</li>
-        <li>Pemograman Internet</li>
-        <li>Basis Data</li>
-        <li>Git dan GitHub</li>
-    </ul>
+        <img id="foto-profil" src="picture.jpeg" alt="Foto Profil Qeisya" />
 
-    <p>Silakan kunjungi halaman <a href="about.html">About</a> untuk mengetahui profil saya lebih lengkap.</p>
-    <hr>
+        <p>
+          Saya adalah mahasiswa yang sedang belajar pengembangan web.<br />
+          Website ini dibuat sebagai latihan menggunakan HTML dan CSS.
+        </p>
 
-    <p>&copy; 2026 Qeisya Dwi Hermawan. Dibuat menggunakan HTML.</p>
-</body>
+        <p>
+          Di website ini Anda dapat mengenal saya, melihat beberapa project,
+          serta menghubungi saya melalui halaman contact.
+        </p>
+      </div>
+      <hr />
+
+      <div class="kartu-info">
+        <h3>Yang Sedang Saya Pelajari</h3>
+        <ul class="daftar-skill">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Pemrograman Internet</li>
+          <li>Basis Data</li>
+          <li>Git dan GitHub</li>
+        </ul>
+      </div>
+
+      <p>
+        Silakan kunjungi halaman <a href="about.html">About</a> untuk mengetahui
+        profil saya lebih lengkap.
+      </p>
+      <hr />
+
+      <div class="footer">
+        <p>&copy; 2026 Qeisya Dwi Hermawan. Dibuat menggunakan HTML dan CSS.</p>
+      </div>
+    </div>
+  </body>
 </html>
