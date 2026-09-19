@@ -2,57 +2,87 @@
 <html lang="id">
   <head>
     <meta charset="UTF-8" />
-    <title>About Me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skill - Qeisya Dwi Hermawan</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Keahlian</h1>
-    <a href="index.html">Home</a> | <a href="about.html">About</a> |
-    <a href="project.html">Project</a> | <a href="contact.html">Contact</a> |
-    <a href="skill.html">Skill</a>
-    <hr />
 
-    <h2>Kemampuan Teknis</h2>
-    <ul>
-      <li>HTML &amp; CSS</li>
-      <li>Python</li>
-      <li>MySQL</li>
-      <li>Git &amp; GitHub</li>
-    </ul>
+    <div id="header">
+      <h1>Keahlian</h1>
+    </div>
 
-    <h2>Kemampuan Non-Teknis</h2>
-    <ul>
-      <li>Manajemen waktu</li>
-      <li>Kerja sama tim</li>
-      <li>Problem solving</li>
-      <li>Komunikasi</li>
-    </ul>
+    <div class="nav-bar">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="project.html">Project</a>
+      <a href="contact.html">Contact</a>
+      <a href="skill.html">Skill</a>
+    </div>
 
-    <h2>Tingkat Penguasaan</h2>
-    <table border="1" cellspacing="1" cellpadding="8">
-      <tr>
-        <th>Keahlian</th>
-        <th>Level</th>
-      </tr>
-      <tr>
-        <td>HTML</td>
-        <td>Dasar</td>
-      </tr>
-      <tr>
-        <td>Python</td>
-        <td>Dasar</td>
-      </tr>
-      <tr>
-        <td>MySQL</td>
-        <td>Dasar</td>
-      </tr>
-      <tr>
-        <td>Git &amp; GitHub</td>
-        <td>Dasar</td>
-      </tr>
-    </table>
-    <hr />
+    <div class="container">
 
-    <a href="index.html">Kembali ke Home</a>
-    <p>&copy; 2026 Qeisya Dwi Hermawan.</p>
+      <div class="kartu-info">
+        <span class="label-section">Teknis</span>
+        <h2>Kemampuan Teknis</h2>
+        <ul class="kelompok-skill">
+          <li>HTML &amp; CSS</li>
+          <li>Python</li>
+          <li>MySQL</li>
+          <li>Git &amp; GitHub</li>
+        </ul>
+      </div>
+
+      <div class="kartu-info">
+        <span class="label-section">Non-Teknis</span>
+        <h2>Kemampuan Non-Teknis</h2>
+        <ul class="kelompok-skill">
+          <li>Manajemen Waktu</li>
+          <li>Kerja Sama Tim</li>
+          <li>Problem Solving</li>
+          <li>Komunikasi</li>
+        </ul>
+      </div>
+
+      <hr />
+
+      <h2>Tingkat Penguasaan</h2>
+      <table>
+        <tr>
+          <th>Keahlian</th>
+          <th>Level</th>
+        </tr>
+        <tr>
+          <td>HTML</td>
+          <td>Dasar</td>
+        </tr>
+        <tr>
+          <td>CSS</td>
+          <td>Dasar</td>
+        </tr>
+        <tr>
+          <td>Python</td>
+          <td>Dasar</td>
+        </tr>
+        <tr>
+          <td>MySQL</td>
+          <td>Dasar</td>
+        </tr>
+        <tr>
+          <td>Git &amp; GitHub</td>
+          <td>Dasar</td>
+        </tr>
+      </table>
+
+      <hr />
+
+      <a href="index.html" class="tombol-aksi">Kembali ke Home</a>
+
+      <div class="footer">
+        <p>&copy; 2026 Qeisya Dwi Hermawan. Dibuat menggunakan HTML dan CSS.</p>
+      </div>
+
+    </div>
+
   </body>
 </html>
